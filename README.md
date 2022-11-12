@@ -13,6 +13,6 @@ export CURRENT_CONFIG_PATH=./config
 This is a sample of `config/yaml` file:
 ```
 env:
-    DB_CONNECTION_STRING: 'postgress://user_name:password@host:5432/postgres'
+    DB_CONNECTION_STRING: 'schema://user_name:password@host:5432/postgres'
     SOME_SETTING: value
 ```
